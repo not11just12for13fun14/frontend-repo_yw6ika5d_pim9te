@@ -1,7 +1,8 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import WorkShowcase from './components/WorkShowcase';
-import About from './components/About';
+import ParallaxGrid from './components/ParallaxGrid';
+import ThreeGallery from './components/ThreeGallery';
 import Contact from './components/Contact';
 
 function Footer() {
@@ -22,7 +23,8 @@ export default function App() {
       <main>
         <Hero />
         <WorkShowcase />
-        <About />
+        <ParallaxGrid />
+        <ThreeGallery />
         <Contact />
       </main>
       <Footer />
